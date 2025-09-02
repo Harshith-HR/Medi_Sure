@@ -1,0 +1,37 @@
+[
+  {
+    "drug1": "warfarin",
+    "drug2": "aspirin",
+    "severity": "high",
+    "description": "Increased risk of bleeding. Monitor INR closely and consider dose adjustment.",
+    "mechanism": "Additive anticoagulant effects"
+  },
+  {
+    "drug1": "metformin",
+    "drug2": "alcohol",
+    "severity": "moderate",
+    "description": "May increase risk of lactic acidosis. Limit alcohol consumption.",
+    "mechanism": "Impaired lactate metabolism"
+  },
+  {
+    "drug1": "lisinopril",
+    "drug2": "potassium",
+    "severity": "moderate",
+    "description": "May cause hyperkalemia. Monitor potassium levels regularly.",
+    "mechanism": "Reduced potassium excretion"
+  },
+  {
+    "drug1": "simvastatin",
+    "drug2": "grapefruit",
+    "severity": "high",
+    "description": "Grapefruit increases statin levels, raising risk of muscle toxicity.",
+    "mechanism": "CYP3A4 inhibition"
+  },
+  {
+    "drug1": "digoxin",
+    "drug2": "furosemide",
+    "severity": "moderate",
+    "description": "Diuretic-induced hypokalemia may increase digoxin toxicity risk.",
+    "mechanism": "Electrolyte imbalance"
+  }
+]

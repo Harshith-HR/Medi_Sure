@@ -1,0 +1,21 @@
+{
+  "acetaminophen": {
+    "adult": { "maxDaily": 4000, "maxSingle": 1000, "unit": "mg" },
+    "elderly": { "maxDaily": 3000, "maxSingle": 750, "unit": "mg" },
+    "pediatric": { "maxDaily": 75, "maxSingle": 15, "unit": "mg/kg" }
+  },
+  "ibuprofen": {
+    "adult": { "maxDaily": 3200, "maxSingle": 800, "unit": "mg" },
+    "elderly": { "maxDaily": 2400, "maxSingle": 600, "unit": "mg" },
+    "pediatric": { "maxDaily": 40, "maxSingle": 10, "unit": "mg/kg" }
+  },
+  "aspirin": {
+    "adult": { "maxDaily": 4000, "maxSingle": 1000, "unit": "mg" },
+    "elderly": { "maxDaily": 2600, "maxSingle": 650, "unit": "mg" },
+    "pediatric": { "maxDaily": 0, "maxSingle": 0, "unit": "mg", "note": "Contraindicated <18 years" }
+  },
+  "warfarin": {
+    "adult": { "typical": "2-10", "unit": "mg", "note": "Individualized based on INR" },
+    "elderly": { "typical": "1-5", "unit": "mg", "note": "Start low, titrate carefully" }
+  }
+}

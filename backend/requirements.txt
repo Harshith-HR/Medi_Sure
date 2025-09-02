@@ -1,0 +1,62 @@
+pandas>=1.5.0
+numpy>=1.21.0
+pathlib
+
+# IBM Watson ML SDK for Granite models
+ibm-watson-machine-learning>=1.0.0
+
+# Hugging Face transformers for medical NLP models (BioBERT, PubMedBERT)
+transformers>=4.30.0
+torch>=2.0.0
+tokenizers>=0.13.0
+
+# Additional NLP processing dependencies
+regex>=2023.0.0
+scikit-learn>=1.3.0
+
+# HTTP requests for GatorTron API
+requests>=2.31.0
+
+# PaddleOCR for handwritten text recognition (primary OCR method)
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+
+# OCR dependencies for image text extraction
+# IBM Watson Visual Recognition for OCR
+ibm-watson>=6.0.0
+
+# Tesseract OCR fallback
+pytesseract>=0.3.10
+Pillow>=9.0.0
+
+# Medical NLP and biomedical text processing
+datasets>=2.14.0
+sentence-transformers>=2.2.0
+
+# Enhanced image processing for medical documents
+opencv-python>=4.8.0
+scipy>=1.11.0
+
+# FastAPI for web API
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+
+# Medical database and regulatory compliance
+psycopg2-binary>=2.9.0  # PostgreSQL for patient database
+python-dateutil>=2.8.0  # Date processing for prescriptions
+
+# Voice processing (IBM Watson Speech-to-Text)
+# Already covered by ibm-watson>=6.0.0
+
+# SMS/WhatsApp notifications (Twilio)
+twilio>=8.5.0
+
+# Multi-language translation
+# Already covered by ibm-watson>=6.0.0
+
+# Logging and monitoring
+structlog>=23.1.0
+
+# JSON processing for medical NER
+jsonschema>=4.17.0

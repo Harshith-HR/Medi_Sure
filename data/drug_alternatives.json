@@ -1,0 +1,47 @@
+[
+  {
+    "original": "aspirin",
+    "alternatives": [
+      {
+        "drug": "acetaminophen",
+        "reason": "Lower bleeding risk, suitable for pain relief",
+        "contraindications": ["liver disease"]
+      },
+      {
+        "drug": "celecoxib",
+        "reason": "COX-2 selective, reduced GI risk",
+        "contraindications": ["cardiovascular disease"]
+      }
+    ]
+  },
+  {
+    "original": "ibuprofen",
+    "alternatives": [
+      {
+        "drug": "acetaminophen",
+        "reason": "Better for elderly patients, less GI irritation",
+        "contraindications": ["liver disease"]
+      },
+      {
+        "drug": "topical diclofenac",
+        "reason": "Localized action, reduced systemic effects",
+        "contraindications": ["skin sensitivity"]
+      }
+    ]
+  },
+  {
+    "original": "warfarin",
+    "alternatives": [
+      {
+        "drug": "apixaban",
+        "reason": "No routine monitoring required, fewer drug interactions",
+        "contraindications": ["severe renal impairment"]
+      },
+      {
+        "drug": "rivaroxaban",
+        "reason": "Once daily dosing, predictable anticoagulation",
+        "contraindications": ["severe hepatic impairment"]
+      }
+    ]
+  }
+]
